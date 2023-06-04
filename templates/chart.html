@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Drug Recommentation</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../static/img/favicon.png" rel="icon">
+  <link href="../static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../static/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Eterna - v4.6.0
+  * Template URL: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 23456789</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1><a href="index.html">Drug Recommentation</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+         <li><a class="nav-link scrollto" href="{{ url_for('first')}}">Home</a></li>
+          <li><a class="nav-link scrollto" href="{{ url_for('login')}}">Login</a></li>
+		    <li><a class="nav-link scrollto" href="{{ url_for('upload')}}">upload</a></li>
+	    <li><a class="nav-link scrollto" href="{{ url_for('home')}}">Prediction</a></li>
+	    <li><a class="nav-link scrollto" href="{{ url_for('chart')}}">Analaysis</a></li>
+
+		 
+           
+           </ul>
+          
+       
+     </nav>
+    </div>
+  </header><!-- End Header -->
+
+
+
+    <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background: url(../static/img/slide/slide-1.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Drug Recommendation System based on <span>Sentiment Analysis of Drug Reviews using Machine Learning</span></h2>
+                <p class="animate__animated animate__fadeInUp">This project intends to present a drug
+recommender system that can drastically reduce specialists heap.
+In this research, we build a medicine recommendation system
+that uses patient reviews to predict the sentiment using various
+vectorization processes.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background: url(../static/img/slide/slide-2.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Drug Prediction Using <span>Machine Learning</span></h2>
+                <p class="animate__animated animate__fadeInUp">In this Project, we will be predicting the prices of used cars. We will be building various Machine Learning models and Deep Learning models with different architectures. In the end, we will see how machine learning models perform in comparison to deep learning models.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background: url(../static/img/slide/slide-3.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Drug Prediction Using <span>Machine Learning</span></h2>
+                <p class="animate__animated animate__fadeInUp">In this Project, we will be predicting the prices of used cars. We will be building various Machine Learning models and Deep Learning models with different architectures. In the end, we will see how machine learning models perform in comparison to deep learning models.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Section ======= -->
+    <section id="featured" class="featured">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="icon-box">
+              <i class="bi bi-card-checklist"></i>
+              <h3><a href="">ML Classification with NLP</a></h3>
+              <p>ML thinks about piece by piece of Data. The pieces that ML looks for are called highlights. It finding the harsh element matches in two data in similar positions, ML
+improve at seeing closeness than entire data coordinating
+plans. Each component resembles a smaller than normal
+data, a little two-dimensional cluster of qualities.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bi bi-bar-chart"></i>
+              <h3><a href="">97% Accuracy</a></h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bi bi-binoculars"></i>
+              <h3><a href="">Multiple Language Supported</a></h3>
+              <p> In the drug recommender system, medicine is
+offered on a specific condition dependent on patient reviews
+using sentiment analysis and feature engineering. Sentiment
+analysis is a progression of strategies, methods, and tools for
+distinguishing and extracting emotional data, such as opinion
+and attitudes, from language.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Featured Section -->
+
+
+
+
+
+
+  </section> 
+
+ 
+
+    
+
+ 
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        
+           
+    
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Type', 'percentage'],
+          ['Cialis', 190],
+          ['Pakistan', 15]
+          ['South Africa', 15]
+          ['Bangaladesh', 10]
+          ['America', 20]
+          ['Others', 20]
+        ]);
+
+        var options = {
+          title: '',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+  </br>
+<html>
+  <head>
+   
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['type', 'percentage'],
+          ['Cialis',     20],
+          ['Atripla',      19],
+	     ['Lybrel',      15],
+          ['ParaGard',      14],
+          ['Other Drugs',      32],
+
+
+                  ]);
+
+        var options = {
+          title: '',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+  </br>
+   <center><h1>Number of Different Drugs with Most Reviews</h1></center> 
+   <center> <div id="piechart_3d" style="width: 900px; height: 500px;"></div></center>
+  </body>
+</html>
+</br>
+</br>
+</br>
+
+   
+
+
+
+
+
+
+
+
+
+
+<html>
+   <head>
+      <title></title>
+      <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
+      </script>
+      <script type = "text/javascript">
+         google.charts.load('current', {packages: ['corechart','line']});  
+      </script>
+   </head>
+   
+   <body>
+   <center><h1>Accuracy Plot</h1></center> 
+   </br>
+   </br>
+   
+      <div id = "container" style = "width: 550px; height: 400px; margin: 0 auto">
+      </div>
+      <script language = "JavaScript">
+         function drawChart() {
+            // Define the chart to be drawn.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Month');
+            data.addColumn('number', 'Training_Accuracy');
+            data.addColumn('number', 'Testing_Accuracy');
+                         
+            data.addRows([
+                
+               ['10',  0.15,0.14],
+               ['20',  0.82,0.81],
+               
+               ['30',  0.85,0.86],
+               ['40',  0.91,0.88],
+               ['50',  0.95,0.94],
+                
+            ]);
+               
+            // Set chart options
+            var options = {'title' : '',
+               hAxis: {
+                  title: 'Epoches'
+               },
+               vAxis: {
+                  title: 'Accuracy'
+               },   
+               'width':550,
+               'height':400	  
+            };
+
+            // Instantiate and draw the chart.
+            var chart = new google.visualization.LineChart(document.getElementById('container'));
+            chart.draw(data, options);
+         }
+         google.charts.setOnLoadCallback(drawChart);
+      </script>
+   </body>
+</html>
+			 
+ 
+
+			
+			
+			
+			
+			
+			
+			</div>
+          </div>
+        </div>		  
+		  
+		  
+		  
+				  
+		
+		
+		
+		
+      <!-- Portfolio Grid Items -->
+         </div> 
+    </section> 
+   
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+     
+
+    <div class="container">
+      <div class="copyright">
+        
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
+         
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../static/vendor/aos/aos.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../static/vendor/php-email-form/validate.js"></script>
+  <script src="../static/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../static/js/main.js"></script>
+
+</body>
+
+</html>

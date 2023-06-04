@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Drug Recommentation</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../static/img/favicon.png" rel="icon">
+  <link href="../static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../static/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Eterna - v4.6.0
+  * Template URL: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 23456789</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1><a href="index.html">Drug Recommentation</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+         <li><a class="nav-link scrollto" href="{{ url_for('first')}}">Home</a></li>
+          <li><a class="nav-link scrollto" href="{{ url_for('login')}}">Login</a></li>
+		    <li><a class="nav-link scrollto" href="{{ url_for('upload')}}">upload</a></li>
+	    <li><a class="nav-link scrollto" href="{{ url_for('home')}}">Prediction</a></li>
+	    <li><a class="nav-link scrollto" href="{{ url_for('chart')}}">Analaysis</a></li>
+
+		 
+           
+           </ul>
+          
+       
+     </nav>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background: url(../static/img/slide/slide-1.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Drug Recommendation System based on <span>Sentiment Analysis of Drug Reviews using Machine Learning</span></h2>
+                <p class="animate__animated animate__fadeInUp">This project intends to present a drug
+recommender system that can drastically reduce specialists heap.
+In this research, we build a medicine recommendation system
+that uses patient reviews to predict the sentiment using various
+vectorization processes.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background: url(../static/img/slide/slide-2.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Drug Prediction Using <span>Machine Learning</span></h2>
+                <p class="animate__animated animate__fadeInUp">In this Project, we will be predicting the prices of used cars. We will be building various Machine Learning models and Deep Learning models with different architectures. In the end, we will see how machine learning models perform in comparison to deep learning models.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background: url(../static/img/slide/slide-3.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Drug Prediction Using <span>Machine Learning</span></h2>
+                <p class="animate__animated animate__fadeInUp">In this Project, we will be predicting the prices of used cars. We will be building various Machine Learning models and Deep Learning models with different architectures. In the end, we will see how machine learning models perform in comparison to deep learning models.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Section ======= -->
+    <section id="featured" class="featured">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="icon-box">
+              <i class="bi bi-card-checklist"></i>
+              <h3><a href="">ML Classification with NLP</a></h3>
+              <p>ML thinks about piece by piece of Data. The pieces that ML looks for are called highlights. It finding the harsh element matches in two data in similar positions, ML
+improve at seeing closeness than entire data coordinating
+plans. Each component resembles a smaller than normal
+data, a little two-dimensional cluster of qualities.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bi bi-bar-chart"></i>
+              <h3><a href="">97% Accuracy</a></h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bi bi-binoculars"></i>
+              <h3><a href="">Multiple Language Supported</a></h3>
+              <p> In the drug recommender system, medicine is
+offered on a specific condition dependent on patient reviews
+using sentiment analysis and feature engineering. Sentiment
+analysis is a progression of strategies, methods, and tools for
+distinguishing and extracting emotional data, such as opinion
+and attitudes, from language.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Featured Section -->
+
+
+
+
+
+
+
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+
+		</div>
+
+		<h2 style="color:cyan;font-size:40px;text-align: center;">Drug Conditions</h2>
+
+	</div>
+	</header>
+
+	<div class="ml-container">
+
+		<form action="predict" method="POST">
+		<p style="color:white;font-size:18px; text-align: center;">Enter Your Condition Here</p>
+		<!-- <input type="text" name="comment"/> -->
+		<p style="text-align: center;"><textarea name="message" rows="6" cols="50"></textarea></P>
+		<br/>
+		<p style="text-align: center;font-size:20px"><input id="first" type="submit" class="btn-info" value="Predict"></P>
+
+	</form>
+	</div>
+
+	
+
+
+     <style>
+        body{
+            
+		 background-image: url('https://venngage-					wordpress.s3.amazonaws.com/uploads/2018/09/Monochrome-			Type-Simple-Background-Image.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            text-align: center;
+            padding: 0px;
+        }
+
+		h2{
+		margin:0px;
+		 padding:20px;
+		  }
+
+		h3{
+		margin:0px;
+		 padding:35px;
+		  }
+
+		h4 {
+		margin:0px;
+		 padding:15px;
+		  }
+
+        #first {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+
+        }
+
+		#first:hover {
+        	background-color:lightcoral;
+
+        }
+        #second {
+            border-radius: 14px;
+            height: 25px;
+            color:white;
+            font-size: 18px;
+            text-align: center;
+        }
+
+		#third {
+			border-radius: 14px;
+            height: 25px;
+            font-size: 18px;
+            text-align: center;
+		}
+
+		#third:hover {
+        	background-color:lightcoral;
+        }
+
+        #last {
+        	border-radius:14px;
+            height: 25px;
+            font-size: 18px;
+            text-align:center;
+            margin:40px;
+			padding:20px;
+        }
+        #last:hover {
+        	background-color:lightseagreen;
+        }
+
+        #about {
+        font-size:18px;
+        position: absolute;
+        left: 20px;
+        }
+        #about:hover {
+        	background-color:lightgreen;
+        }
+
+	</style>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Drug Recommentation</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../static/img/favicon.png" rel="icon">
+  <link href="../static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../static/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Eterna - v4.6.0
+  * Template URL: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+ <!-- ======= Top Bar ======= -->
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 23456789</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1><a href="index.html">Drug Recommentation</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+         <li><a class="nav-link scrollto" href="{{ url_for('first')}}">Home</a></li>
+          <li><a class="nav-link scrollto" href="{{ url_for('login')}}">Login</a></li>
+		    <li><a class="nav-link scrollto" href="{{ url_for('upload')}}">upload</a></li>
+	    <li><a class="nav-link scrollto" href="{{ url_for('home')}}">Prediction</a></li>
+	    <li><a class="nav-link scrollto" href="{{ url_for('chart')}}">Analaysis</a></li>
+
+		 
+           
+           </ul>
+          
+       
+     </nav>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background: url(../static/img/slide/slide-1.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Drug Recommendation System based on <span>Sentiment Analysis of Drug Reviews using Machine Learning</span></h2>
+                <p class="animate__animated animate__fadeInUp">This project intends to present a drug
+recommender system that can drastically reduce specialists heap.
+In this research, we build a medicine recommendation system
+that uses patient reviews to predict the sentiment using various
+vectorization processes.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background: url(../static/img/slide/slide-2.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Drug Prediction Using <span>Machine Learning</span></h2>
+                <p class="animate__animated animate__fadeInUp">In this Project, we will be predicting the prices of used cars. We will be building various Machine Learning models and Deep Learning models with different architectures. In the end, we will see how machine learning models perform in comparison to deep learning models.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background: url(../static/img/slide/slide-3.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Drug Prediction Using <span>Machine Learning</span></h2>
+                <p class="animate__animated animate__fadeInUp">In this Project, we will be predicting the prices of used cars. We will be building various Machine Learning models and Deep Learning models with different architectures. In the end, we will see how machine learning models perform in comparison to deep learning models.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Section ======= -->
+    <section id="featured" class="featured">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="icon-box">
+              <i class="bi bi-card-checklist"></i>
+              <h3><a href="">ML Classification with NLP</a></h3>
+              <p>ML thinks about piece by piece of Data. The pieces that ML looks for are called highlights. It finding the harsh element matches in two data in similar positions, ML
+improve at seeing closeness than entire data coordinating
+plans. Each component resembles a smaller than normal
+data, a little two-dimensional cluster of qualities.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bi bi-bar-chart"></i>
+              <h3><a href="">97% Accuracy</a></h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bi bi-binoculars"></i>
+              <h3><a href="">Multiple Language Supported</a></h3>
+              <p> In the drug recommender system, medicine is
+offered on a specific condition dependent on patient reviews
+using sentiment analysis and feature engineering. Sentiment
+analysis is a progression of strategies, methods, and tools for
+distinguishing and extracting emotional data, such as opinion
+and attitudes, from language.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Featured Section -->
+
+
+
+
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+
+		</div>
+		<h2 style="color:cyan;font-size:30px;text-align: center;">Drug reviews(Sentiment Analysis)</h2>
+	</div>
+	</header>
+
+	<p style="color:lightyellow;font-size:25px;text-align: center;"><b>Results</b></p>
+	<div class="results">
+
+   <table class="center"">
+<!-- Table headers -->
+    <th>
+        <tr style="color:gold; font-size:22px;">
+        <td >Reviews</td>
+        <td>Prediction</td>
+</tr>
+    </th>
+
+<!-- For loop logic of jinja template -->
+{%for i in range(0, length)%}
+<!-- table rows -->
+<tr>
+    <td style="color:white">{{ data[i] }}</td>
+    {% if predict_data[i] == 2 %}
+        <td style="color:lime">Positive</td>
+    {% elif predict_data[i] == 0 %}
+        <td style="color:magenta">Neutral</td>
+    {% elif predict_data[i] == 1 %}
+        <td style="color:red">Negative</td>
+    {% endif %}
+
+{%endfor%}
+
+</tr>
+
+</table>
+
+    <style>
+        body {
+            background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUXFxoVFRUVFRUVFRUVGBoYFxUVFRUYHSggGBolHRUXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NFQ8FFSsZExkrKysrKysrKysrKysrLS0rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAMIBAwMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAABAgMABAYFB//EADwQAAIBAQYEBQIDBgQHAAAAAAABAjEDESFxgcFBUbHwIjJhkdEEoQZCchIWM7LC4RNikpMFByNSY3OC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD8aff2BwG/uCKw9wF7+48XTQVoK4AWuw0Ykad8iioxId+wGlR6ms6DT4misABPylJLoLaLw98h0ugCTogqos8FohrvEwBdXTqh4rv3N8rqh7Jd6MCU+GaK8NUB8Mx5LqgIS4Z7MEliPaKmfyNaRxAjGveRWyZOCuuWY9irvsALWOKy3Mx7eum6BcBCaxXfId1Rp1XfEZrEBIrF98WBVWQyXiYJR6MCfPvmZ0M+OS3NwA3H26IzNKvfJDMCcavP4DIaPHP4A+/YCTZgMwFUu/YERgQA3IaC8IFTvmGCwApDjlsCKGiugIKmgAlxDChnQMPKBpLw6FIU0Fn5XkVjHw6AQtVhorh5Kgbd4aLY044oAcHmuqHsqd+oLq5rqh7OOACSVM9ykohlHYdrDUDmtFTPZhdRraNM9mFrFAQSxWZSaqGS8SXdBlHFgLaY3ZboVlLRUyewrXXZARmsV3xGaxBJYod1Am14tPkMtg3eLT5Hax0A54LF5IXgPHFvJbiXYAGVe+SCwOvfIZgJDj3yAxorHv0BLv7gRZgmAqhYrca/FghT3Ay79x4LBZCxQ9nwyApdg8hbN0yKNYPInZxwXfAAzp3yDGnuGSweQtn8gGfl0KqlxKT8PfI6FHACVpHDRbFJRvYJrw6fBVLFgRkq5rqitlyBNebNdUUs4075gCSpp7Bk8NRpxwWaFSf7LfqgJ2saZvowNUy3ZSbxjnszWkcUgJRXiWvQpGPQ0FitehSxWCAhbeZfpAu/sU+oj4lkxWgOeXmXfEN+KDbLxLvibl3xAT8zyGlUEfNpuNJYoCSq8luLJYDuryXVmmsAJOvt0GA1j3yGARPr8AdTTq8/gMqsCRhWECr4gi8Lh2qiRAaI1nRZCxGgsFkBZyw0J2bwWnQdLB5C2SwWgDyWD1ND5BN4aMNgAJ+XQuthJLw//LLRXTYBbReFZLqUVWJLyXem5RxvbAnaOua6otDgRnGua6xOizWC74gGcMFmtzOPha9UC0dM1uWuVzz+AOS1rHNdGa08xS2Xlz/pYs0Av5lr0KWTu6dQLzLXoMo9QI278SyfUzXUNuvFF+nwFrHXYCFqsV3xFaoa1fiWW6KNYoDnj5nluOqrLY12Oi6szqstgI88luGbwC3e2/RbizQCX498h0hEse+QwAax1+BZ1YYuua2NMDnlUwwQKcwRp36jLj3yFs6PUALvQePDJCtcRoLBP0AutmJZrD2KQWDfoJZ/HQAzWDyYbJYBnxDZ+UBp+XQs1f8A6ScvLpsXsl02Ag+9cS0PM0RtI3K/ml8F/wBjxZ/2ADVc49UWso3pd8xHTWPVFvp6LP5AS1hgs0WksNRXRZorNYa/AHNarGPfBiTjjq10RT6j8mnRjW21+tWBz2eL0fS7YpZPqJGN0lHNfYpZRuAnbLGOT6oDjxKfURuaX+V9ULdgBy2kcV3yGkse+ZrTzIaXmAiqvLdiTwufoVl5tN2LawvSyYEFx03M6GSvvXojcAF498kM446sDq++CHluwJRWLzWxnx74DQq81sDn3wAjeYVmAuLHdjIFnR67gZLBMezou+YE8O+Y0F4UBaDwfqvkSHx0HVNO+otlGmSALpoGw8vsB00Y1j5X3xApd4Xk+hazWF/oSn5Xky8KaAStoYX80upZtYaCfUS8Cy+Cso3MBVR5x/mRaxos/ki+Oa/miXsV4e+YGksFmupaccCb3RaVNdgOX6n8ua6M01c9Rvqaxz2Y1ovFHPdgc8oXS1ftcVd17uFeM13wHuxd3qAn1MsV+lr7pE2u9B/qI3tfpb+6BJddkByWvmjrsPNeIW0qtSk/NoBGfm03YJRvw9At+LQLd0gOaFXfyQHQMVi8t2BgK6+3RDS3F4+3QaSAWNXmtgNYjRrr8Cy4gc8qmNJmAvzNZ09wcQQpeA0eHfEpZ0WRONB7PhkBa6uQlnwyKPjk9xLOi74ANKmj6GsqXG4PJms1UCr8jyfQ6I09uhySfg02OpPC70QCy8vfM6UsWcr8vfodNm8XnsBK1WDzXWJ0WT71IWtHnHqi8Kd+oDz4ZodvB+jXQSbwj+oEV4W/VdANb1j+raQLR4x13EtXjHPZhnVLvEAQ8y74FIrAmvMu/wAqKWNFl8gRtax/SwLv2DavGP6XsB7gcttVa9UNJ4oH1PDL4A1c1luAr82m4LWpovxPLcWeLQCKryXVmtFh36C31yXUe1oBB1enQoJxenQcCadc/g0qgkq5/AZ1YEGYzMBWXEWLwHlv8CL5AaLwu9R4UWRNOme5SHDJAVcunyLZPBBu6MWzotAKt4PUNl37k7R4aPoP9O8NAGn5dC/DT4ITfh02L31AE5XxyRdSub0OedF6rcrF3toATddOsTos5Yd5HNd5tP5olrN01AtPhmh78GvVbHLayp+pbnSpYPNbAc9rWOf2uYLSWKfr8BtX5f1f0yEtH3oA9/iv9X0Hs54PXchGWOV/QrZr4AnaSxjk9g346iWqxjk+qM3i89gJ2tV3yNJ4rvkTtX4lr1KSeKAjHzabgbud/psFeZ5LqwPFrLYCV1cluG0lUF9cluadLwEVfboPeLx9uiNeBrq5/ALSvfIEHi8/gNowOdoIWYCn99hY079Q377GhLB6gAZOmSAwwWCA6lRk4U75DQ4rugkO/YBpquobOnuCbqaDw75APaeXvkXbv9mc834dNi9mwFlLDK774lIy8TIWzww5K8q65gU+Y/zIrY4rv1IX4ax6orYPv3AM1gs0WluiDlTNFJywWa2Anavy57SBOuoLV+XPZj2sr3oBGxfHmnuV+nl1IJ4xupiUjhf6XAP9T5l+ndCSD9RVZPqhG8GBK0WK74oMqiWjxXfFBlLEBU/E8t2LJ3XP06Bv8XfqaWzAlLjpubgCNXfyQOABde+SDJCyr3yQ0nQBYrF5/AJd+wYOufwK2BFsxmjAVBAIsPkBkqd8RoPwi34d8xoeVAVhV5Ag6d8ArjkCz4aAF0ffA1nQEqaMMPL7gNLyvJloU0IWj8LyLReAAtl4c0thpSoTtnhoth7SqAZOucf5kUsngQbrmuqK2TwAe04ZrqVk8NSDew7lhqAls6Z7MLqtSdu6ZvowyliteoAauazKSd95K++XfIfi8gDOXlv5boRvv2NayxS/y/AG+uyAlaPFDSqTk8UM3iAPzafIzWN3oJf4nkPOWOgEYvxPJbiX4Dwq8luJwAMq98kES/Hvkh2wFhx02BLv7hVe/QD7+4EmYBgKIEfkz4mi8AMuBSFFkTiPZ8MvgCzo8idm6FG8NCdm8F3wAadO+RoPD3M3g8mCzVdQGl5SpCXl0LKWFwAn5dPgpfiyVp5dPgdVYAnxzXVFLORG0ddOqKQkBScqae5nLB5oSTwWYEvC80A9o/LnsxZOmTJzeKzXRhtH4gGg8Vr0K2bIReK74FLF4afIC28sV+lmTBbPxLJgbAnN+Jd8Rr8ULbVXfEz4d8QCvM8twt4iRfi03GbvYCcXktwToBuuSDOgCOvfIe/cS/HvkMArde+RnUEle9fg06sCbZhWzAVYqGbFQBiNCiETHi6ZAPfgLZvAZbCweHsA7eHuaze4s6GsmA01hoUWxOTw0HbrkBpvw6XfcZvElKWF3dR08QFm66dUVi6Enx06oeLoBWcsPbczo8yM3TNFXLBgTtOGezBOoZvFd8GK2Ayqteg0ZE1LH36DxfUAWrxWQU8dRbSqy+DX498gBOWK74h5Ep1O/wD4X/w61+otFZ2Ub3c5O93JJNYt+wHEq6bjX4rvgffX4O+qvrZUV3/UXr6Z+wf3M+rw/hUv/icOdKAecdXktxZM+/H8I/UtX32LV1f8VXXK+933Al+EfqbvNYUv/jKnOlAPPp498h0z7kfwh9S3hKweCf8AFVGlc6UxWPqP+5v1X/h/3V8Aef55rYEj79n+Dfqqp2LTeDVqmtHcGX4P+q52P+6vgDzLiY9N+431nKz/ANf9jAeefHviKqGMBkFcNAmAohYGMBp8cg2dGYwGnTQo9gmAmNxCYAPddR7OnfqYwAlwKSoYwE51XfMWVdfgJgBDYaBjAa14ZbozMYCTqj2H/Lr+Paf+r+tGMB+gRglRJaAdlH/tXsjGANwP2VW5X8+JjAD/AA1yXKiC7NclhTAxgArONLl7IzguS9jGABjGKP/Z');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            text-align: center;
+            padding: 0px;
+        }
+	</style>
+
+
+
+<style type="text/css">
+
+   .center {
+     margin-left: auto;
+     margin-right: auto;
+         }
+
+    tr:nth-of-type(2n){
+        border: 1px solid black;
+        background-color: rgba(150, 150, 150, 0.5);
+    }
+
+    td{
+        padding: 8px 8px;
+        border: 1px solid black;
+    }
+</style>
+
+</body>
+</html>
